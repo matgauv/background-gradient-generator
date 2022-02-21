@@ -14,6 +14,7 @@ function updateGradient() {
 color1.addEventListener("input", updateGradient);
 color2.addEventListener("input", updateGradient);
 
+// method to generate a random color from: https://www.educative.io/edpresso/how-to-generate-a-random-color-in-javascript
 function generateRandomColor(){
     let maxVal = 0xFFFFFF;
     let randomNumber = Math.random() * maxVal; 
